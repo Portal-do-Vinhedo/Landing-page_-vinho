@@ -28,6 +28,7 @@ header{
     padding: 2.5vw 6vw 1vw 6vw;
     img{
         height: 42px;
+        
     }
 
     ul{
@@ -62,6 +63,11 @@ header{
                 width: 16px;
                 height: 16px;
             }
+            &:hover {
+        background-color: #500000;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+        }
         }
 }
 
@@ -122,7 +128,13 @@ section#banner{
                     width: 42px;
                     height: 44px;
                 }
+                &:hover {
+            background-color: #500000;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
             }
+            }
+            
         }
     }
 
@@ -130,6 +142,8 @@ section#banner{
         img{
             width: 504;
             height: 523;
+            
+            
         }
     }
 }
@@ -174,6 +188,12 @@ p{
         align-items: center;
         border-bottom: 2px solid #7D0C05;
         padding-bottom: 1px;
+
+        &:hover {
+            color: #500000;
+            transform: translateY(-3px);
+            
+        }
     }
     
 
@@ -187,6 +207,7 @@ p{
         height: 36px;
         margin-bottom:-20px ;
     }
+    
 }
 
 ul{
@@ -256,6 +277,7 @@ section#terra{
         li{
             width: 25%;
             width: 410px;
+            height: 401px;
             border-right: 1px solid #C99C86;
 
             .number{
@@ -268,13 +290,15 @@ section#terra{
             h3{
                 color:#F4F4F4 ;
                 font-family: "GFS Didot", serif;
-                font-size: 2rem;
+                font-size: 50px;
                 padding: 5px 40px;
             }
             p{
                 color: #BDB1AB;
-                font-size: 0.9rem;
+                font-size: 18px;
                 padding: 10px 40px 10px ;
+                max-width: 400px;
+                padding-bottom: 15px;
             }
         }
         .li-parede{
@@ -289,15 +313,18 @@ section#impacto{
     display: flex;
     padding: 4vw 6vw;
     gap: 50px;
+    justify-content: space-between;
+    padding-bottom: 230px;
     
 
     .title{
+        font-size: 20px;
         padding-bottom:30px ;
         color: #7D0C05;
     }
     h2{
-        font-size: 3rem;
-        max-width: 260px;
+        font-size: 80px;
+        max-width: 500px;
 
         span{
             color: #7D0C05;
@@ -305,9 +332,9 @@ section#impacto{
     }
     p{
         color: #756C66;
-        font-size: 1.1rem;
+        font-size: 19px;
         padding-top: 4vw;
-        max-width: 660px;
+        max-width: 596px;
     }
 
     ul{
@@ -321,6 +348,7 @@ section#impacto{
                 font-weight: 400;
                 padding-bottom: 5px;
                 font-weight: 400;
+                font-size: 20px;
             }
 
             .number{
@@ -330,12 +358,13 @@ section#impacto{
             h3{
                 font-family: "GFS Didot", serif;
                 font-size: 2rem;
+                font-size: 48px;
             }
             p{
-                font-size: 0.9rem;
+                font-size: 20px;
                 max-width: 660px;
                 padding-top: 1.8vw;
-                padding-bottom: 4px;
+                padding-bottom: 20px;
             }
         }
     }
@@ -435,6 +464,8 @@ section#historia{
 
 }
 
+/*=== Artigo ===*/
+
 section#artigo{
     padding: 2vw 6vw;
     background-color: #F4E9CD;
@@ -462,6 +493,674 @@ section#artigo{
         
     }
 
+    .button-artigo{
+        background-color: #7D0C05;
+        display: flex;
+        border-radius: 8px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 4px;
+
+        
+            img{
+                width: 50px;
+                height: 50px;
+                margin-left: -10px;
+            }
+        
+
+        div{
+            padding: 10px 20px 10px 30px;
+            h3{
+                color: #FFFFFF;
+                font-weight: 500;
+            }
+            p{
+                color: #8E8585;
+                font-size: 0.9rem;
+            }
+        }
+        &:hover {
+            background-color: #500000;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+            }
+    }
     
 
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #500000;
+    color: #FFCDB4;
+    display: flex;
+    font-size: 22px;
+    padding: 4vw 6vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 22px;
+    max-width: 456px;
+    text-align: center;
+}
+
+footer p .araquari {
+    max-width: 290px;
+    text-align: right;
+}
+
+
+
+
+/* =====================================
+    RESPONSIVIDADE PARA TABLETS E CELULARES
+===================================== */
+
+/* Tablets e telas menores */
+@media (max-width: 1024px) {
+
+    /* HEADER */
+    header {
+        padding: 20px 4%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    header img {
+        max-width: 100%;
+    }
+
+    header ul li {
+        padding: 0 12px;
+    }
+
+    /* BANNER */
+    section#banner {
+        padding: 40px 4%;
+        gap: 30px;
+        align-items: center;
+    }
+
+    section#banner div.banner h1 {
+        font-size: 2.8rem;
+        padding-top: 20px;
+    }
+
+    section#banner div.banner p {
+        font-size: 1rem;
+    }
+
+    section#banner .banner-img {
+        flex: 1;
+        min-width: 0;
+        
+    }
+
+    section#banner .banner-img img {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    section#banner div.botao {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    /* PROPOSTA */
+    section#proposta {
+        padding: 70px 4%;
+    }
+
+    section#proposta h2 {
+        font-size: 2.7rem;
+    }
+
+    section#proposta ul {
+        flex-wrap: wrap;
+    }
+
+    section#proposta ul li {
+        padding: 20px;
+        flex: 1 1 200px;
+    }
+
+    /* DA TERRA À TAÇA */
+    section#terra {
+        padding: 60px 4%;
+    }
+
+    section#terra div.divizona h2 {
+        font-size: 2.5rem;
+    }
+
+    section#terra ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    section#terra ul li {
+        width: calc(50% - 10px);
+        height: auto;
+        min-width: 0;
+        border: 1px solid #C99C86;
+        padding-bottom: 20px;
+    }
+
+    section#terra ul li p,
+    section#terra ul li h3,
+    section#terra ul li .number {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section#terra ul li img {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* IMPACTO */
+    section#impacto {
+        padding: 60px 4%;
+        gap: 30px;
+    }
+
+    section#impacto h2 {
+        font-size: 3.2rem;
+    }
+
+    section#impacto ul li h3 {
+        font-size: 2rem;
+    }
+
+    section#impacto ul li p {
+        font-size: 1rem;
+    }
+
+    /* HISTÓRIA */
+    section#historia h2 {
+        font-size: 2.8rem;
+    }
+
+    /* PESQUISA */
+    #pesquisa {
+        padding: 60px 4%;
+    }
+
+    #pesquisa .div-cont {
+        gap: 30px;
+    }
+
+    #pesquisa .div-cont h2 {
+        font-size: 3.5rem;
+    }
+
+    #pesquisa .div-cont ul li p {
+        font-size: 1.1rem;
+    }
+
+    /* ARTIGO */
+    section#artigo {
+        padding: 35px 4%;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    section#artigo .tex {
+        margin-left: 0;
+        flex: 1;
+        min-width: 220px;
+    }
+
+    section#artigo .tex h2 {
+        font-size: 2rem;
+    }
+
+    /* RODAPÉ */
+    footer {
+        padding: 40px 4%;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+
+/* =====================================
+   CELULARES
+===================================== */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    header > img {
+        height: 36px;
+        width: auto;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 20px;
+    }
+
+    header nav ul li {
+        padding: 0;
+        font-size: 0.85rem;
+    }
+
+    header .button-nav {
+        justify-content: center;
+        padding: 12px 20px;
+    }
+
+    /* BANNER */
+    section#banner {
+        flex-direction: column;
+        padding: 35px 6%;
+        gap: 30px;
+    }
+
+    section#banner div.banner {
+        width: 100%;
+    }
+
+    section#banner div.banner h1 {
+        font-size: clamp(2.2rem, 8vw, 3rem);
+        line-height: 1.15;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        max-width: 100%;
+    }
+
+    section#banner div.banner p {
+        font-size: 1rem;
+        padding-bottom: 30px;
+        max-width: 100%;
+    }
+
+    section#banner div.botao {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    section#banner .button-banner {
+        padding: 10px 15px;
+    }
+
+    section#banner .banner-img {
+        width: 100%;
+    }
+
+    section#banner .banner-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* PROPOSTA */
+    section#proposta {
+        padding: 60px 6%;
+    }
+
+    section#proposta .title {
+        padding-bottom: 20px;
+    }
+
+    section#proposta h2 {
+        font-size: clamp(2rem, 7vw, 2.7rem);
+        line-height: 1.2;
+    }
+
+    section#proposta p {
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+    section#proposta .button-proposta {
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+
+    section#proposta .button-proposta p {
+        font-size: 0.9rem;
+    }
+
+    section#proposta .button-proposta img {
+        width: 28px;
+        height: 28px;
+    }
+
+    section#proposta ul {
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 20px;
+    }
+
+    section#proposta ul li {
+        flex: auto;
+        width: 100%;
+        padding: 20px 0;
+        border-right: none !important;
+        border-bottom: 1px solid #A7A7A7;
+    }
+
+    section#proposta ul li:last-child {
+        border-bottom: none;
+    }
+
+    section#proposta ul li h3 {
+        font-size: 2rem;
+    }
+
+    section#proposta ul li p {
+        font-size: 0.9rem;
+    }
+
+    /* DA TERRA À TAÇA */
+    section#terra {
+        padding: 55px 6%;
+    }
+
+    section#terra .title {
+        padding-bottom: 20px;
+    }
+
+    section#terra div.divizona {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    section#terra div.divizona h2 {
+        font-size: clamp(2rem, 7vw, 2.6rem);
+        line-height: 1.2;
+    }
+
+    section#terra div.divizona p {
+        font-size: 1rem;
+    }
+
+    section#terra ul {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    section#terra ul li {
+        width: 100%;
+        height: auto;
+        border: 1px solid #C99C86;
+        padding-bottom: 20px;
+    }
+
+    section#terra ul li .number {
+        padding: 20px 20px 0;
+    }
+
+    section#terra ul li img {
+        padding: 20px;
+    }
+
+    section#terra ul li h3 {
+        font-size: 2.2rem;
+        padding: 0 20px;
+    }
+
+    section#terra ul li p {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* IMPACTO */
+    section#impacto {
+        flex-direction: column;
+        padding: 55px 6%;
+        gap: 30px;
+    }
+
+    section#impacto .title {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    section#impacto h2 {
+        font-size: clamp(2.3rem, 8vw, 3.5rem);
+        line-height: 1.15;
+    }
+
+    section#impacto p {
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+    section#impacto ul {
+        padding-top: 10px;
+    }
+
+    section#impacto ul li {
+        gap: 15px;
+        padding-top: 20px;
+    }
+
+    section#impacto ul li .number {
+        flex-shrink: 0;
+    }
+
+    section#impacto ul li .title {
+        font-size: 0.85rem;
+        padding-bottom: 5px;
+    }
+
+    section#impacto ul li h3 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    section#impacto ul li p {
+        font-size: 0.95rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* HISTÓRIA */
+    section#historia {
+        padding: 50px 6%;
+    }
+
+    section#historia .title {
+        font-size: 2rem;
+    }
+
+    section#historia h2 {
+        font-size: clamp(2rem, 7vw, 2.7rem);
+        line-height: 1.25;
+    }
+
+    section#historia p {
+        padding: 20px 0 0;
+    }
+
+    /* PESQUISA */
+    #pesquisa {
+        padding: 50px 6%;
+    }
+
+    #pesquisa .txt {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #pesquisa .search,
+    #pesquisa .ifc {
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+    }
+
+    #pesquisa .div-cont {
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 40px;
+    }
+
+    #pesquisa .div-cont h2 {
+        font-size: clamp(2.2rem, 8vw, 3rem);
+        line-height: 1.2;
+    }
+
+    #pesquisa .div-cont ul {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #pesquisa .div-cont ul li {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    #pesquisa .div-cont ul li p {
+        font-size: 1.1rem;
+        padding-left: 0;
+        overflow-wrap: anywhere;
+    }
+
+    #pesquisa .div-cont ul li.orientador p {
+        font-size: 0.85rem;
+    }
+
+    /* ARTIGO */
+    section#artigo {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 6%;
+        gap: 25px;
+    }
+
+    section#artigo > img {
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+    }
+
+    section#artigo .tex {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0;
+    }
+
+    section#artigo .tex .title {
+        font-size: 0.8rem;
+        padding-bottom: 15px;
+    }
+
+    section#artigo .tex h2 {
+        font-size: clamp(2rem, 7vw, 2.5rem);
+        line-height: 1.2;
+    }
+
+    section#artigo .button-artigo {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    section#artigo .button-artigo > div {
+        padding: 10px;
+        min-width: 0;
+    }
+
+    section#artigo .button-artigo h3 {
+        font-size: 0.85rem;
+    }
+
+    section#artigo .button-artigo p {
+        font-size: 0.75rem;
+        overflow-wrap: anywhere;
+    }
+
+    section#artigo .button-artigo img {
+        width: 35px;
+        height: 35px;
+        margin-left: 5px;
+        flex-shrink: 0;
+    }
+
+    /* RODAPÉ */
+    footer {
+        margin-top: 40px;
+        flex-direction: column;
+        text-align: center;
+        padding: 35px 6%;
+        gap: 20px;
+    }
+
+    footer img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    footer p {
+        max-width: 100%;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    footer p.araquari {
+        text-align: center;
+    }
+}
+
+
+/* =====================================
+   CELULARES PEQUENOS
+===================================== */
+@media (max-width: 400px) {
+
+    header nav ul {
+        gap: 12px;
+    }
+
+    header nav ul li {
+        font-size: 0.8rem;
+    }
+
+    section#banner div.banner h1 {
+        font-size: 2rem;
+    }
+
+    section#proposta h2,
+    section#terra div.divizona h2 {
+        font-size: 1.9rem;
+    }
+
+    section#impacto ul li {
+        gap: 10px;
+    }
+
+    section#impacto ul li h3 {
+        font-size: 1.45rem;
+    }
+
+    section#artigo .button-artigo h3 {
+        font-size: 0.75rem;
+    }
 }
