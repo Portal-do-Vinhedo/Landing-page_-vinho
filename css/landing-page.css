@@ -366,3 +366,68 @@ section#historia{
     }
     
 }
+
+/*=== Pesquisa :3 ===*/
+#pesquisa {
+    background-color: #F4F4F4;
+
+    div.txt{
+        display: flex;
+    }
+    .search {
+        color: #756C66;
+        font-size: 1.1rem;
+        padding: 71px 1004px 42px 120px;
+    }
+
+    .ifc {
+        color: #756C66;
+        font-size: 1.1rem;
+        padding: 71px 120px 42px 0px ;
+    }
+
+
+
+    hr {
+        border: none; 
+        height: 1px; 
+        background-color: #8E8585; 
+        width: 90%;
+        margin-left: 71px; 
+        margin-right: 71px;
+        border: none;
+    }
+
+    h1 {
+        color: #7D0C05;
+        font-size: 24px;
+        padding: 80px 90px 80px 120px;
+    }
+
+    h2 {
+        font-size: 84px;
+        padding: 0px 178px 262px 120px;
+        span {
+            color: #7D0C05;
+        }
+    }
+
+    .autores {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 1px;
+        color: #282828;
+        font-size: 30px;
+        padding: 0 5% 0 0;
+        line-height: 4rem;
+        span {
+            color: #8E8585;
+            font-size: 19px;
+            text-decoration: none;
+        }
+    }
+
+    div {
+        display: flex;
+    }
+}
