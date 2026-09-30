@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+html{
+    background-color: #F4F4F4;
+
+    font-family: "Poppins", sans-serif;
+
+    h2{
+        font-family: "GFS Didot", serif;
+    }
+}
+
+.title{
+    color: #7D0C05;
+    font-size: 0.9rem;
+    font-weight:bold;
+    padding-bottom: 65px;
+}
+/*=== HEADER ===*/
+
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vw 6vw 1vw 6vw;
+    img{
+        height: 42px;
+    }
+
+    ul{
+        display: flex;
+        
+
+        li{
+            padding: 0 2vw;
+            color: #756C66;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        li:hover{
+            color: #7D0C05;
+        }
+    }
+    div.button-nav{
+            display: flex;
+            background-color: #7D0C05;
+            align-items: center;
+            padding: 15px 2vw;
+            border-radius: 9px;
+
+            p{
+                color: #FFFFFF;
+                font-size: 0.8rem;
+                font-weight: 500;
+                padding-right: 5px;
+            }
+
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+}
+
+/*=== BANNER ===*/
+
+section#banner{
+    display: flex;
+    padding-left: 6vw ;
+    gap: 70px;
+
+    div.banner{
+        h1{
+            font-family: "GFS Didot", serif;
+            font-size: 3.5rem;
+            padding-top: 6vw;
+            max-width: 460px;
+            padding-bottom: 54px;
+
+            span{
+                color: #7D0C05;
+            }
+        }
+
+        p{
+            color: #756C66;
+            font-size: 1.1rem;
+            max-width: 660px;
+            padding-bottom: 65px;
+        }
+
+        div.botao{
+            display: flex;
+            gap: 90px;
+
+            p{
+                span{
+                    font-size: 0.9rem;
+                    max-width: 860px;
+                }
+            }
+            .button-banner{
+                display: flex;
+                background-color: #7D0C05;
+                align-items: center;
+                padding: 10px 1vw;
+                border-radius: 4px;
+                
+                p{
+                    color: #FFFFFF;
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    padding-right: 5px;
+                    padding-bottom: 0;
+                    padding-left: 5px;
+                }
+                
+                img{
+                    width: 42px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+
+    .banner-img{
+        img{
+            width: 504;
+            height: 523;
+        }
+    }
+}
+
+/*=== Proposta ===*/
+
+
+
+section#proposta{
+    padding: 9vw 6vw;
+
+    .title{
+    color: #7D0C05;
+    font-size: 0.9rem;
+    font-weight:bold;
+    padding-bottom: 35px;
+}
+
+h2{
+    font-size: 3.2rem;
+    max-width: 560px;
+    padding-bottom: 15px;
+
+    span{
+        color: #7D0C05;
+    }
+}
+
+p{
+    color: #665f5b;
+    padding-top: 30px;
+    font-size: 1.2rem;
+    
+}
+
+.button-proposta{
+    padding-top: 2vw;
+    padding-bottom: 8vw;
+    display: flex;
+    div{
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #7D0C05;
+        padding-bottom: 1px;
+    }
+    
+
+    p{
+        font-size: 1.2rem;
+        color: #7D0C05;
+        padding-right: 15px;
+    }
+    img{
+        width: 36px;
+        height: 36px;
+        margin-bottom:-20px ;
+    }
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #A7A7A7;
+    padding: 2vw 0 0 0;
+
+    li{
+        padding-top: 2vw;
+        padding: 0 4vw 0 6vw;
+        h3{
+            font-size: 2.5rem;
+            font-family: "GFS Didot", serif;
+            color: #7D0C05;
+            
+        }
+        p{
+            font-size: 0.9rem;
+            
+        }
+        .li-parede{
+            border-right: 1px solid #A7A7A7;
+        }
+    }
+}
+}
+section#proposta ul li:not(:last-child) {
+    border-right: 1px solid #A7A7A7;
+}
+
+/*=== Terra ===*/
+
+section#terra{
+    background-color: #7D0C05;
+    padding: 5vw 6vw;
+    .title{
+        color: #F4F4F4;
+        padding-bottom: 30px;
+    }
+
+    div.divizona{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        h2{
+            color: #F4F4F4;
+            font-size: 3.2rem;
+            max-width: 550px;
+        }
+
+        p{
+            color: #BDB1AB;
+            font-size: 1.1rem;
+            max-width: 460px;
+            
+        }
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5vw 1vw;
+
+        li{
+            width: 25%;
+            width: 410px;
+            border-right: 1px solid #C99C86;
+
+            .number{
+                color:#D09C82 ;
+                padding: 20px 40px;
+            }
+            img{
+                padding: 30px 40px;
+            }
+            h3{
+                color:#F4F4F4 ;
+                font-family: "GFS Didot", serif;
+                font-size: 2rem;
+                padding: 5px 40px;
+            }
+            p{
+                color: #BDB1AB;
+                font-size: 0.9rem;
+                padding: 10px 40px 10px ;
+            }
+        }
+        .li-parede{
+            border-left: 1px solid #C99C86;
+        }
+    }
+}
+
+/*=== impacto ===*/
+
+section#impacto{
+    display: flex;
+    padding: 4vw 6vw;
+    gap: 50px;
+    
+
+    .title{
+        padding-bottom:30px ;
+        color: #7D0C05;
+    }
+    h2{
+        font-size: 3rem;
+        max-width: 260px;
+
+        span{
+            color: #7D0C05;
+        }
+    }
+    p{
+        color: #756C66;
+        font-size: 1.1rem;
+        padding-top: 4vw;
+        max-width: 660px;
+    }
+
+    ul{
+        padding-top: 2vw;
+        li{
+            display: flex;
+            gap: 20px;
+            border-top: 1px solid #8E8585;
+
+            .title{
+                font-weight: 400;
+                padding-bottom: 5px;
+                font-weight: 400;
+            }
+
+            .number{
+                color: #7D0C05;
+                font-weight: 500;
+            }
+            h3{
+                font-family: "GFS Didot", serif;
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.9rem;
+                max-width: 660px;
+                padding-top: 1.8vw;
+                padding-bottom: 4px;
+            }
+        }
+    }
+}
+
+/*=== Historia ===*/
+
+section#historia{
+    background-color: #7D0C05;
+    text-align: center;
+    padding: 4vw 6vw;
+
+    .title{
+        color: #C17C8C;
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+        font-family: "GFS Didot", serif;
+    }
+    h2{
+        color: #FBFBFB;
+        font-size: 3.5rem;
+        span{
+            color: #C17C8C;
+        }
+    }
+    p{
+        color: #FBFBFB;
+        padding: 2vw;
+    }
+    
+}
