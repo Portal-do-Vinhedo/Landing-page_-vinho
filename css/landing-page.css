@@ -77,13 +77,14 @@ section#banner{
     display: flex;
     padding-left: 6vw ;
     gap: 70px;
+    align-items: flex-start;
 
     div.banner{
         h1{
             font-family: "GFS Didot", serif;
-            font-size: 3.5rem;
+            font-size: 84px;
             padding-top: 6vw;
-            max-width: 460px;
+            max-width: 860px;
             padding-bottom: 54px;
 
             span{
@@ -138,14 +139,16 @@ section#banner{
         }
     }
 
-    .banner-img{
-        img{
-            width: 504;
-            height: 523;
-            
-            
-        }
+    .banner-img {
+    margin-left: auto;
+    flex-shrink: 0;
+
+    img {
+        width: 40vw;
+    height: 750px;
+    object-fit: cover;
     }
+}
 }
 
 /*=== Proposta ===*/
