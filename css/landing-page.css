@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
 html{
     background-color: #F4F4F4;
@@ -370,64 +371,97 @@ section#historia{
 /*=== Pesquisa :3 ===*/
 #pesquisa {
     background-color: #F4F4F4;
+    padding: 4vw 6vw;
 
     div.txt{
         display: flex;
-    }
+        justify-content: space-between;
+        border-bottom: 0.5px solid #756C66;
+        }
     .search {
         color: #756C66;
-        font-size: 1.1rem;
-        padding: 71px 1004px 42px 120px;
+        font-size: 0.9rem;
+        padding-bottom: 1vw;
+        
     }
 
     .ifc {
         color: #756C66;
-        font-size: 1.1rem;
-        padding: 71px 120px 42px 0px ;
+        font-size: 0.9rem;
+        padding-bottom: 1vw;
     }
 
-
-
-    hr {
-        border: none; 
-        height: 1px; 
-        background-color: #8E8585; 
-        width: 90%;
-        margin-left: 71px; 
-        margin-right: 71px;
-        border: none;
+    .title{
+        padding-bottom: 20px;
     }
 
-    h1 {
-        color: #7D0C05;
-        font-size: 24px;
-        padding: 80px 90px 80px 120px;
-    }
-
-    h2 {
-        font-size: 84px;
-        padding: 0px 178px 262px 120px;
-        span {
-            color: #7D0C05;
-        }
-    }
-
-    .autores {
-        text-decoration: underline;
-        text-underline-offset: 10px;
-        text-decoration-thickness: 1px;
-        color: #282828;
-        font-size: 30px;
-        padding: 0 5% 0 0;
-        line-height: 4rem;
-        span {
-            color: #8E8585;
-            font-size: 19px;
-            text-decoration: none;
-        }
-    }
-
-    div {
+    .div-cont{
+        padding: 4vw 0 2vw 0;    
         display: flex;
+        justify-content: space-between;
+        
+        h2{
+            font-size: 84px;
+            max-width: 800px;
+            
+            span{
+                color: #7D0C05;
+            }
+        }
+
+        ul{
+            padding-right: 4vw;
+            li{
+                border-bottom: 1px solid #8E8585;
+                padding-top: 20px;
+                padding-bottom: 5px;
+
+                p{
+                    font-family: "Newsreader", serif;
+                    padding-left: 8px;
+                    font-size: 25px;
+                    color: #282828;
+                }
+            }
+            .orientador {
+                border: none;
+                p{
+                    color: #8E8585;
+                    font-size: 0.9rem;
+                }
+            }
+        }
     }
+
+}
+
+section#artigo{
+    padding: 2vw 6vw;
+    background-color: #F4E9CD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .tex{
+        .title{
+            padding-bottom: 20px;
+        }
+        h2{
+            font-size: 46px;
+            max-width: 600px;
+            span{
+                color: #7D0C05;
+            }
+        }
+
+        margin-left: -10vw;
+        
+    }
+
+    
+
 }
