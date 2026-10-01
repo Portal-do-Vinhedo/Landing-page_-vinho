@@ -647,7 +647,7 @@ footer p .araquari {
 
     section#terra ul li {
         width: calc(50% - 10px);
-        height: auto;
+        height: 450px;
         min-width: 0;
         border: 1px solid #C99C86;
         padding-bottom: 20px;
