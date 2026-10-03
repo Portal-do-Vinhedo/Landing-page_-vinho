@@ -1,0 +1,919 @@
+/* =========================================================
+   RESPONSIVIDADE
+   &Vinho — Header, Banner e demais seções
+========================================================= */
+
+
+/* =========================================================
+   1368px
+========================================================= */
+
+@media (max-width: 1368px) {
+
+    /* -------------------------
+       HEADER
+    ------------------------- */
+
+    header {
+        padding: 16px 5vw;
+    }
+
+    header > img {
+        height: 40px;
+        width: auto;
+    }
+
+    header ul li {
+        padding: 0 1.5vw;
+    }
+
+    header .button-nav {
+        padding: 13px 1.8vw;
+    }
+
+
+    /* -------------------------
+       BANNER
+    ------------------------- */
+
+    section#banner {
+        min-height: 580px;
+        padding: 70px 6vw 80px;
+    }
+
+    section#banner > img {
+        width: 76px;
+        height: 76px;
+    }
+
+    section#banner h1 {
+        font-size: clamp(3.5rem, 5.5vw, 5rem);
+        line-height: 1.08;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 35px 0 40px;
+    }
+
+    section#banner > p {
+        max-width: 750px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+
+      /* ARTIGO */
+    section#artigo {
+        padding: 35px 4%;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    section#artigo .tex {
+        margin-left: 0;
+        flex: 1;
+        min-width: 220px;
+    }
+
+    section#artigo .tex h2 {
+        font-size: 2rem;
+
+        
+    }
+
+}
+
+
+/* =========================================================
+   1024px
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    /* -------------------------
+       HEADER
+    ------------------------- */
+
+    header {
+        padding: 18px 4%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    header > img {
+        height: 38px;
+        width: auto;
+    }
+
+    header ul {
+        gap: 5px;
+    }
+
+    header ul li {
+        padding: 0 10px;
+        font-size: .85rem;
+    }
+
+    header .button-nav {
+        padding: 12px 16px;
+    }
+
+    header .button-nav p {
+        font-size: .75rem;
+    }
+
+
+    /* -------------------------
+       BANNER
+    ------------------------- */
+
+    section#banner {
+        min-height: 560px;
+        padding: 60px 5% 70px;
+    }
+
+    section#banner > img {
+        width: 68px;
+        height: 68px;
+    }
+
+    section#banner h1 {
+        font-size: clamp(3rem, 6.5vw, 4.2rem);
+        line-height: 1.1;
+        max-width: 850px;
+        padding: 30px 0 35px;
+    }
+
+    section#banner > p {
+        font-size: 1.05rem;
+        max-width: 650px;
+        line-height: 1.6;
+        padding-bottom: 40px;
+    }
+
+
+    /* -------------------------
+       PROPOSTA
+    ------------------------- */
+    /* PROPOSTA */
+    section#proposta {
+        padding: 70px 4%;
+    }
+
+    section#proposta h2 {
+        font-size: 2.7rem;
+    }
+
+    section#proposta ul {
+        flex-wrap: wrap;
+    }
+
+    section#proposta ul li {
+        padding: 20px;
+        flex: 1 1 200px;
+    }
+
+
+    /* COLOQUE AQUI AS REGRAS
+       DA SUA PROPOSTA DE 1024px */
+
+
+    /* -------------------------
+       TERRA
+    ------------------------- */
+    /* DA TERRA À TAÇA */
+    section#terra {
+        padding: 60px 4%;
+    }
+
+    section#terra div.divizona h2 {
+        font-size: 2.5rem;
+    }
+
+    section#terra ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    section#terra ul li {
+        width: calc(50% - 10px);
+        height: 450px;
+        min-width: 0;
+        border: 1px solid #C99C86;
+        padding-bottom: 20px;
+    }
+
+    section#terra ul li p,
+    section#terra ul li h3,
+    section#terra ul li .number {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section#terra ul li img {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+
+    /* COLOQUE AQUI AS REGRAS
+       DA SUA TERRA DE 1024px */
+
+
+    /* -------------------------
+       IMPACTO
+    ------------------------- */
+
+    /* IMPACTO */
+    section#impacto {
+        padding: 60px 4%;
+        gap: 30px;
+    }
+
+    section#impacto h2 {
+        font-size: 3.2rem;
+    }
+
+    section#impacto ul li h3 {
+        font-size: 2rem;
+    }
+
+    section#impacto ul li p {
+        font-size: 1rem;
+    }
+
+
+    /* COLOQUE AQUI AS REGRAS
+       DO SEU IMPACTO DE 1024px */
+
+
+    /* -------------------------
+       HISTÓRIA
+    ------------------------- */
+
+     /* HISTÓRIA */
+    section#historia h2 {
+        font-size: 2.8rem;
+    }
+
+
+    /* COLOQUE AQUI AS REGRAS
+       DA SUA HISTÓRIA DE 1024px */
+
+
+    /* -------------------------
+       PESQUISA
+    ------------------------- */
+
+    /* PESQUISA */
+    #pesquisa {
+        padding: 60px 4%;
+    }
+
+    #pesquisa .div-cont {
+        gap: 30px;
+    }
+
+    #pesquisa .div-cont h2 {
+        font-size: 3.5rem;
+    }
+
+    #pesquisa .div-cont ul li p {
+        font-size: 1.1rem;
+    }
+
+
+    /* COLOQUE AQUI AS REGRAS
+       DA SUA PESQUISA DE 1024px */
+
+
+    /* -------------------------
+       ARTIGO
+    ------------------------- */
+    /* ARTIGO */
+        /* ARTIGO */
+    section#artigo {
+        padding: 35px 4%;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    section#artigo .tex {
+        margin-left: 0;
+        flex: 1;
+        min-width: 220px;
+    }
+
+    section#artigo .tex h2 {
+        font-size: 2rem;
+    }
+
+
+
+    /* COLOQUE AQUI AS REGRAS
+       DO SEU ARTIGO DE 1024px */
+
+
+    /* -------------------------
+       FOOTER
+    ------------------------- */
+     /* RODAPÉ */
+    footer {
+        padding: 40px 4%;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+
+
+    /* COLOQUE AQUI AS REGRAS
+       DO SEU FOOTER DE 1024px */
+}
+
+
+/* =========================================================
+   768px
+========================================================= */
+
+@media (max-width: 768px) {
+
+    /* -------------------------
+       HEADER
+    ------------------------- */
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 18px;
+    }
+
+    header > img {
+        height: 36px;
+        width: auto;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+
+    header nav ul li {
+        padding: 0;
+        font-size: .85rem;
+    }
+
+    header .button-nav {
+        padding: 11px 20px;
+    }
+
+    header .button-nav p {
+        font-size: .75rem;
+    }
+
+    header .button-nav img {
+        width: 15px;
+        height: 15px;
+    }
+
+
+    /* -------------------------
+       BANNER
+    ------------------------- */
+
+    section#banner {
+        min-height: 500px;
+        padding: 55px 6% 65px;
+        background-position: center center;
+    }
+
+    section#banner > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    section#banner h1 {
+        font-size: clamp(2.5rem, 8vw, 3.6rem);
+        line-height: 1.12;
+        max-width: 650px;
+        padding: 25px 0 30px;
+    }
+
+    section#banner > p {
+        max-width: 580px;
+        font-size: 1rem;
+        line-height: 1.55;
+        padding-bottom: 35px;
+    }
+
+    section#banner .botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#banner .button-banner {
+        width: 42px;
+        height: 42px;
+    }
+
+
+/* PROPOSTA */
+    section#proposta {
+        padding: 60px 6%;
+    }
+
+    section#proposta .title {
+        padding-bottom: 20px;
+    }
+
+    section#proposta h2 {
+        font-size: clamp(2rem, 7vw, 2.7rem);
+        line-height: 1.2;
+    }
+
+    section#proposta p {
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+    section#proposta .button-proposta {
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+
+    section#proposta .button-proposta p {
+        font-size: 0.9rem;
+    }
+
+    section#proposta .button-proposta img {
+        width: 28px;
+        height: 28px;
+    }
+
+    section#proposta ul {
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 20px;
+    }
+
+    section#proposta ul li {
+        flex: auto;
+        width: 100%;
+        padding: 20px 0;
+        border-right: none !important;
+        border-bottom: 1px solid #A7A7A7;
+    }
+
+    section#proposta ul li:last-child {
+        border-bottom: none;
+    }
+
+    section#proposta ul li h3 {
+        font-size: 2rem;
+    }
+
+    section#proposta ul li p {
+        font-size: 0.9rem;
+    }
+
+    /* DA TERRA À TAÇA */
+    section#terra {
+        padding: 55px 6%;
+    }
+
+    section#terra .title {
+        padding-bottom: 20px;
+    }
+
+    section#terra div.divizona {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    section#terra div.divizona h2 {
+        font-size: clamp(2rem, 7vw, 2.6rem);
+        line-height: 1.2;
+    }
+
+    section#terra div.divizona p {
+        font-size: 1rem;
+    }
+
+    section#terra ul {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    section#terra ul li {
+        width: 100%;
+        height: auto;
+        border: 1px solid #C99C86;
+        padding-bottom: 20px;
+    }
+
+    section#terra ul li .number {
+        padding: 20px 20px 0;
+    }
+
+    section#terra ul li img {
+        padding: 20px;
+    }
+
+    section#terra ul li h3 {
+        font-size: 2.2rem;
+        padding: 0 20px;
+    }
+
+    section#terra ul li p {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* IMPACTO */
+    section#impacto {
+        flex-direction: column;
+        padding: 55px 6%;
+        gap: 30px;
+    }
+
+    section#impacto .title {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    section#impacto h2 {
+        font-size: clamp(2.3rem, 8vw, 3.5rem);
+        line-height: 1.15;
+    }
+
+    section#impacto p {
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+    section#impacto ul {
+        padding-top: 10px;
+    }
+
+    section#impacto ul li {
+        gap: 15px;
+        padding-top: 20px;
+    }
+
+    section#impacto ul li .number {
+        flex-shrink: 0;
+    }
+
+    section#impacto ul li .title {
+        font-size: 0.85rem;
+        padding-bottom: 5px;
+    }
+
+    section#impacto ul li h3 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    section#impacto ul li p {
+        font-size: 0.95rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* HISTÓRIA */
+    section#historia {
+        padding: 50px 6%;
+    }
+
+    section#historia .title {
+        font-size: 2rem;
+    }
+
+    section#historia h2 {
+        font-size: clamp(2rem, 7vw, 2.7rem);
+        line-height: 1.25;
+    }
+
+    section#historia p {
+        padding: 20px 0 0;
+    }
+
+    /* PESQUISA */
+    #pesquisa {
+        padding: 50px 6%;
+    }
+
+    #pesquisa .txt {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #pesquisa .search,
+    #pesquisa .ifc {
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+    }
+
+    #pesquisa .div-cont {
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 40px;
+    }
+
+    #pesquisa .div-cont h2 {
+        font-size: clamp(2.2rem, 8vw, 3rem);
+        line-height: 1.2;
+    }
+
+    #pesquisa .div-cont ul {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #pesquisa .div-cont ul li {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    #pesquisa .div-cont ul li p {
+        font-size: 1.1rem;
+        padding-left: 0;
+        overflow-wrap: anywhere;
+    }
+
+    #pesquisa .div-cont ul li.orientador p {
+        font-size: 0.85rem;
+    }
+
+    /* ARTIGO */
+    section#artigo {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 6%;
+        gap: 25px;
+        text-align: center;
+    }
+
+    section#artigo > img {
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+    }
+
+    section#artigo .tex {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0;
+    }
+
+    section#artigo .tex .title {
+        font-size: 0.8rem;
+        padding-bottom: 15px;
+    }
+
+    section#artigo .tex h2 {
+        font-size: clamp(2rem, 7vw, 2.5rem);
+        line-height: 1.2;
+    }
+
+    section#artigo .button-artigo {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    section#artigo .button-artigo > div {
+        padding: 10px;
+        min-width: 0;
+    }
+
+    section#artigo .button-artigo h3 {
+        font-size: 0.85rem;
+    }
+
+    section#artigo .button-artigo p {
+        font-size: 0.75rem;
+        overflow-wrap: anywhere;
+    }
+
+    section#artigo .button-artigo img {
+        width: 35px;
+        height: 35px;
+        margin-left: 5px;
+        flex-shrink: 0;
+    }
+
+    /* RODAPÉ */
+    footer {
+        margin-top: 40px;
+        flex-direction: column;
+        text-align: center;
+        padding: 35px 6%;
+        gap: 20px;
+    }
+
+    footer img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    footer p {
+        max-width: 100%;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    footer p.araquari {
+        text-align: center;
+    }
+
+
+}
+
+
+/* =========================================================
+   600px
+========================================================= */
+
+@media (max-width: 600px) {
+
+    /* -------------------------
+       HEADER
+    ------------------------- */
+
+    header {
+        padding: 18px 16px;
+        gap: 16px;
+    }
+
+    header > img {
+        height: 34px;
+    }
+
+    header nav ul {
+        gap: 8px 16px;
+    }
+
+    header nav ul li {
+        font-size: .8rem;
+    }
+
+    header .button-nav {
+        padding: 10px 17px;
+        border-radius: 8px;
+    }
+
+    header .button-nav p {
+        font-size: .72rem;
+    }
+
+    header .button-nav img {
+        width: 14px;
+        height: 14px;
+    }
+
+
+    /* -------------------------
+       BANNER
+    ------------------------- */
+
+    section#banner {
+        min-height: 470px;
+        padding: 50px 7% 55px;
+        background-position: 55% center;
+    }
+
+    section#banner > img {
+        width: 54px;
+        height: 54px;
+    }
+
+    section#banner h1 {
+        font-size: clamp(2.3rem, 9vw, 3.2rem);
+        line-height: 1.12;
+        padding: 22px 0 25px;
+    }
+
+    section#banner > p {
+        font-size: .92rem;
+        line-height: 1.55;
+        padding-bottom: 30px;
+    }
+
+    section#banner .button-banner {
+        width: 40px;
+        height: 40px;
+    }
+
+    section#banner .button-banner img {
+        width: 11px;
+        height: auto;
+    }
+
+
+    /* -------------------------
+       OUTRAS SEÇÕES
+    ------------------------- */
+
+    /* MANTENHA AQUI AS SUAS
+       REGRAS DE 600px */
+}
+
+
+/* =========================================================
+   400px
+========================================================= */
+
+@media (max-width: 400px) {
+
+    /* -------------------------
+       HEADER
+    ------------------------- */
+
+    header {
+        padding: 16px 12px;
+        gap: 14px;
+    }
+
+    header > img {
+        height: 31px;
+    }
+
+    header nav ul {
+        gap: 8px 12px;
+    }
+
+    header nav ul li {
+        font-size: .75rem;
+    }
+
+    header .button-nav {
+        padding: 9px 15px;
+    }
+
+    header .button-nav p {
+        font-size: .68rem;
+    }
+
+    header .button-nav img {
+        width: 13px;
+        height: 13px;
+    }
+
+
+    /* -------------------------
+       BANNER
+    ------------------------- */
+
+    section#banner {
+        min-height: 440px;
+        padding: 45px 6% 50px;
+        background-position: 60% center;
+    }
+
+    section#banner > img {
+        width: 48px;
+        height: 48px;
+    }
+
+    section#banner h1 {
+        font-size: 2.15rem;
+        line-height: 1.12;
+        padding: 20px 0 22px;
+    }
+
+    section#banner > p {
+        font-size: .86rem;
+        line-height: 1.5;
+        padding-bottom: 25px;
+    }
+
+    section#banner .button-banner {
+        width: 38px;
+        height: 38px;
+    }
+
+
+    /* -------------------------
+       OUTRAS SEÇÕES
+    ------------------------- */
+
+    /* MANTENHA AQUI AS SUAS
+       REGRAS DE 400px */
+}
