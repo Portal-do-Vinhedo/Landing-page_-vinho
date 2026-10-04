@@ -18,7 +18,6 @@ html{
     font-weight:bold;
     padding-bottom: 65px;
 }
-/*=== HEADER ===*/
 
 header{
     background-color: #FFFFFF;
@@ -70,8 +69,6 @@ header{
         }
         }
 }
-
-/*=== BANNER ===*/
 
 section#banner{
         min-height: 600px;
@@ -149,11 +146,6 @@ section#banner{
 
 
 }
-
-
-/*=== Proposta ===*/
-
-
 
 section#proposta{
     padding: 4vw 6vw 9vw;
@@ -237,12 +229,11 @@ ul{
         }
     }
 }
+
 }
 section#proposta ul li:not(:last-child) {
     border-right: 1px solid #A7A7A7;
 }
-
-/*=== Terra ===*/
 
 section#terra{
     background-color: #7D0C05;
@@ -310,8 +301,6 @@ section#terra{
     }
 }
 
-/*=== impacto ===*/
-
 section#impacto{
     display: flex;
     padding: 4vw 6vw;
@@ -373,8 +362,6 @@ section#impacto{
     }
 }
 
-/*=== Historia ===*/
-
 section#historia{
     background-color: #7D0C05;
     text-align: center;
@@ -400,7 +387,6 @@ section#historia{
     
 }
 
-/*=== Pesquisa :3 ===*/
 #pesquisa {
     background-color: #F4F4F4;
     padding: 4vw 6vw;
@@ -467,8 +453,6 @@ section#historia{
 
 }
 
-/*=== Artigo ===*/
-
 section#artigo{
     padding: 2vw 6vw;
     background-color: #F4E9CD;
@@ -530,7 +514,6 @@ section#artigo{
             }
     }
     
-
 }
 
 footer {
@@ -554,7 +537,3 @@ footer p .araquari {
     max-width: 290px;
     text-align: right;
 }
-
-
-
-

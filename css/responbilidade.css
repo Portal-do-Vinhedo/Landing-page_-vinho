@@ -1,18 +1,5 @@
-/* =========================================================
-   RESPONSIVIDADE
-   &Vinho — Header, Banner e demais seções
-========================================================= */
-
-
-/* =========================================================
-   1368px
-========================================================= */
 
 @media (max-width: 1368px) {
-
-    /* -------------------------
-       HEADER
-    ------------------------- */
 
     header {
         padding: 16px 5vw;
@@ -30,11 +17,6 @@
     header .button-nav {
         padding: 13px 1.8vw;
     }
-
-
-    /* -------------------------
-       BANNER
-    ------------------------- */
 
     section#banner {
         min-height: 580px;
@@ -60,7 +42,6 @@
         line-height: 1.6;
     }
 
-      /* ARTIGO */
     section#artigo {
         padding: 35px 4%;
         gap: 25px;
@@ -81,16 +62,7 @@
 
 }
 
-
-/* =========================================================
-   1024px
-========================================================= */
-
 @media (max-width: 1024px) {
-
-    /* -------------------------
-       HEADER
-    ------------------------- */
 
     header {
         padding: 18px 4%;
@@ -120,11 +92,6 @@
         font-size: .75rem;
     }
 
-
-    /* -------------------------
-       BANNER
-    ------------------------- */
-
     section#banner {
         min-height: 560px;
         padding: 60px 5% 70px;
@@ -149,11 +116,6 @@
         padding-bottom: 40px;
     }
 
-
-    /* -------------------------
-       PROPOSTA
-    ------------------------- */
-    /* PROPOSTA */
     section#proposta {
         padding: 70px 4%;
     }
@@ -171,15 +133,6 @@
         flex: 1 1 200px;
     }
 
-
-    /* COLOQUE AQUI AS REGRAS
-       DA SUA PROPOSTA DE 1024px */
-
-
-    /* -------------------------
-       TERRA
-    ------------------------- */
-    /* DA TERRA À TAÇA */
     section#terra {
         padding: 60px 4%;
     }
@@ -213,17 +166,6 @@
         padding-right: 20px;
     }
 
-
-
-    /* COLOQUE AQUI AS REGRAS
-       DA SUA TERRA DE 1024px */
-
-
-    /* -------------------------
-       IMPACTO
-    ------------------------- */
-
-    /* IMPACTO */
     section#impacto {
         padding: 60px 4%;
         gap: 30px;
@@ -241,30 +183,11 @@
         font-size: 1rem;
     }
 
-
-    /* COLOQUE AQUI AS REGRAS
-       DO SEU IMPACTO DE 1024px */
-
-
-    /* -------------------------
-       HISTÓRIA
-    ------------------------- */
-
-     /* HISTÓRIA */
     section#historia h2 {
         font-size: 2.8rem;
     }
 
 
-    /* COLOQUE AQUI AS REGRAS
-       DA SUA HISTÓRIA DE 1024px */
-
-
-    /* -------------------------
-       PESQUISA
-    ------------------------- */
-
-    /* PESQUISA */
     #pesquisa {
         padding: 60px 4%;
     }
@@ -281,16 +204,6 @@
         font-size: 1.1rem;
     }
 
-
-    /* COLOQUE AQUI AS REGRAS
-       DA SUA PESQUISA DE 1024px */
-
-
-    /* -------------------------
-       ARTIGO
-    ------------------------- */
-    /* ARTIGO */
-        /* ARTIGO */
     section#artigo {
         padding: 35px 4%;
         gap: 25px;
@@ -307,16 +220,6 @@
         font-size: 2rem;
     }
 
-
-
-    /* COLOQUE AQUI AS REGRAS
-       DO SEU ARTIGO DE 1024px */
-
-
-    /* -------------------------
-       FOOTER
-    ------------------------- */
-     /* RODAPÉ */
     footer {
         padding: 40px 4%;
         gap: 25px;
@@ -327,22 +230,9 @@
         font-size: 1rem;
     }
 
-
-
-    /* COLOQUE AQUI AS REGRAS
-       DO SEU FOOTER DE 1024px */
 }
 
-
-/* =========================================================
-   768px
-========================================================= */
-
 @media (max-width: 768px) {
-
-    /* -------------------------
-       HEADER
-    ------------------------- */
 
     header {
         flex-direction: column;
@@ -387,11 +277,6 @@
         height: 15px;
     }
 
-
-    /* -------------------------
-       BANNER
-    ------------------------- */
-
     section#banner {
         min-height: 500px;
         padding: 55px 6% 65px;
@@ -428,8 +313,6 @@
         height: 42px;
     }
 
-
-/* PROPOSTA */
     section#proposta {
         padding: 60px 6%;
     }
@@ -488,7 +371,6 @@
         font-size: 0.9rem;
     }
 
-    /* DA TERRA À TAÇA */
     section#terra {
         padding: 55px 6%;
     }
@@ -544,7 +426,6 @@
         padding: 10px 20px;
     }
 
-    /* IMPACTO */
     section#impacto {
         flex-direction: column;
         padding: 55px 6%;
@@ -595,7 +476,6 @@
         padding-bottom: 15px;
     }
 
-    /* HISTÓRIA */
     section#historia {
         padding: 50px 6%;
     }
@@ -613,7 +493,6 @@
         padding: 20px 0 0;
     }
 
-    /* PESQUISA */
     #pesquisa {
         padding: 50px 6%;
     }
@@ -660,7 +539,6 @@
         font-size: 0.85rem;
     }
 
-    /* ARTIGO */
     section#artigo {
         flex-direction: column;
         align-items: center;
@@ -719,7 +597,6 @@
         flex-shrink: 0;
     }
 
-    /* RODAPÉ */
     footer {
         margin-top: 40px;
         flex-direction: column;
@@ -746,16 +623,7 @@
 
 }
 
-
-/* =========================================================
-   600px
-========================================================= */
-
 @media (max-width: 600px) {
-
-    /* -------------------------
-       HEADER
-    ------------------------- */
 
     header {
         padding: 18px 16px;
@@ -787,11 +655,6 @@
         width: 14px;
         height: 14px;
     }
-
-
-    /* -------------------------
-       BANNER
-    ------------------------- */
 
     section#banner {
         min-height: 470px;
@@ -826,25 +689,9 @@
         height: auto;
     }
 
-
-    /* -------------------------
-       OUTRAS SEÇÕES
-    ------------------------- */
-
-    /* MANTENHA AQUI AS SUAS
-       REGRAS DE 600px */
 }
 
-
-/* =========================================================
-   400px
-========================================================= */
-
 @media (max-width: 400px) {
-
-    /* -------------------------
-       HEADER
-    ------------------------- */
 
     header {
         padding: 16px 12px;
@@ -876,11 +723,6 @@
         height: 13px;
     }
 
-
-    /* -------------------------
-       BANNER
-    ------------------------- */
-
     section#banner {
         min-height: 440px;
         padding: 45px 6% 50px;
@@ -909,11 +751,4 @@
         height: 38px;
     }
 
-
-    /* -------------------------
-       OUTRAS SEÇÕES
-    ------------------------- */
-
-    /* MANTENHA AQUI AS SUAS
-       REGRAS DE 400px */
 }
